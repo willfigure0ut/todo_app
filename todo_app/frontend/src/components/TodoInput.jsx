@@ -30,6 +30,9 @@ function TodoInput({todos,setTodos}) {
         onChange={(e) => setTitle(e.target.value)}
         placeholder="Enter title"
       />
+      
+      <br />
+      <br />
       <input 
         type="text"
         className="description"
@@ -37,6 +40,8 @@ function TodoInput({todos,setTodos}) {
         onChange={(e) => setDescription(e.target.value)}
         placeholder="Enter description"
       />
+      <br /> 
+      <br />
       
       <button type="submit">Add Todo</button>
     </form>
